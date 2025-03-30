@@ -1,0 +1,64 @@
+body {
+    background-color: #944250;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'League Spartan', Arial, Helvetica;
+}
+
+.border {
+    margin: 20px;
+    padding-top: 15px;
+    padding-left: 9px;
+    padding-bottom: 9px;
+}
+
+.border-primary {
+    border-color: #E9D9DC !important;
+}
+
+.titulos {
+    color: #E9D9DC;
+    line-height: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+#fotoPerfil {
+    max-width: 100%;
+    position: absolute;
+    top: 35px;
+    left: 68%;
+}
+
+.menu {
+    color: #E9D9DC;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-bottom: -30px;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.redesSociais {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    left: 72%;
+    margin-bottom: 40px;
+    margin-top: -15px;
+}
