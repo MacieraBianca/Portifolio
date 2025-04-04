@@ -4,11 +4,20 @@ body {
     padding: 0px;
     font-family: 'League Spartan', Arial, Helvetica;
 }
+    .redesSociais {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        max-width: 240px;
+        left: 72%;
+        margin-bottom: 40px;
+        margin-top: -15px;
+}
 
 .border {
     margin: 20px;
     padding-top: 15px;
-    padding-left: 9px;
+    padding-left: 15px;
     padding-bottom: 9px;
 }
 
@@ -19,7 +28,6 @@ body {
 .titulos {
     color: #E9D9DC;
     line-height: 10px;
-    margin-left: 10px;
 }
 
 h1 {
@@ -49,16 +57,28 @@ h3 {
     font-size: 25px;
     margin-top: 200px;
     margin-bottom: -30px;
-    list-style-type: none;
     font-weight: 600;
+    list-style: none;    
 }
 
-.redesSociais {
-    position: relative;
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
     display: flex;
-    justify-content: space-between;
-    max-width: 240px;
-    left: 72%;
-    margin-bottom: 40px;
-    margin-top: -15px;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.menu a {
+    text-decoration:none;
+    color: inherit;
+}
+
+.menu li img.circle {
+    width: 29px;
+    margin-right: 7px; 
 }
