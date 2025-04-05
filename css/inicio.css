@@ -103,6 +103,7 @@ h3 {
 
     #fotoPerfil {
         display: none;
+        
     }
 
     .menu {
@@ -118,6 +119,6 @@ h3 {
         left: 0;
         margin: 20px auto;
         justify-content: space-around;
-        padding-top: 40px;
+        padding-top: 50px;
     }
 }
