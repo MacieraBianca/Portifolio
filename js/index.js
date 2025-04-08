@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     itensMenu.forEach(function (item) {
         item.addEventListener("mouseover", function () {
-            item.style.color = "#292F36"; 
+            item.style.color = "#292F36";
         });
 
         item.addEventListener("mouseout", function () {

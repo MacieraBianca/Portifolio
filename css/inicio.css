@@ -4,15 +4,7 @@ body {
     padding: 0px;
     font-family: 'League Spartan', Arial, Helvetica;
 }
-    .redesSociais {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        max-width: 240px;
-        left: 72%;
-        margin-bottom: 40px;
-        margin-top: -15px;
-}
+    
 
 .border {
     margin: 20px;
@@ -28,6 +20,7 @@ body {
 .titulos {
     color: #E9D9DC;
     line-height: 10px;
+    max-width: 400px;
 }
 
 h1 {
@@ -55,10 +48,27 @@ h3 {
 .menu {
     color: #E9D9DC;
     font-size: 25px;
-    margin-top: 200px;
-    margin-bottom: -30px;
+    max-width: 200px;
+    margin-top: 185px;
+    margin-bottom: 20px;
     font-weight: 600;
     list-style: none;    
+}
+
+.menu .circle{
+    display: none;
+}
+
+.menu li:hover .circle {
+    display: inline;
+}
+
+.menu li:hover a {
+    color: #292F36;
+}
+
+.menu a.ativo {
+    color: #292F36;
 }
 
 .menu ul {
@@ -83,41 +93,12 @@ h3 {
     margin-right: 7px; 
 }
 
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 50px;
-        line-height: 50px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    #fotoPerfil {
-        display: none;
-    }
-
-    .menu {
-        font-size: 20px;
-        margin-top: 40px;
-    }
-
-    .menu li {
-        margin-bottom: 10px;
-    }
-
-    .redesSociais {
-        left: 0;
-        margin: 20px auto;
-        justify-content: space-around;
-        padding-top: 40px;
-    }
+.redesSociais {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        max-width: 240px;
+        left: 72%;
+        margin-bottom: 40px;
+        margin-top: -85px;
 }

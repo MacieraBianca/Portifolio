@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    #fotoPerfil {
+        display: none;
+    }
+
+    .menu {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .menu .circle {
+        display: none;
+    }
+    
+    .menu li:hover .circle {
+        display: inline;
+    }
+    
+    .menu li:hover a {
+        color: #292F36;
+    }
+    
+    .menu li {
+        margin-bottom: 10px;
+    }
+
+    .redesSociais {
+        left: 0;
+        margin: 20px auto;
+        justify-content: space-around;
+        padding-top: 40px;
+    }
+}
