@@ -1,10 +1,23 @@
 body {
-    background-color: #944250;
-    margin: 0px;
-    padding: 0px;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(-60deg, #0F0832, #0f0832, #3A1891, #3a1891);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     font-family: 'League Spartan', Arial, Helvetica;
 }
     
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 .border {
     margin: 20px;
@@ -14,13 +27,22 @@ body {
 }
 
 .border-primary {
-    border-color: #E9D9DC !important;
+    border-color: #F7260E !important;
 }
 
 .titulos {
-    color: #E9D9DC;
+    color: #F7260E;
     line-height: 10px;
     max-width: 400px;
+}
+
+#sobreMim {
+    max-width: 999px;
+    margin-bottom: -67px;
+}
+
+#sobreMim h2 {
+    font-size: 23px;
 }
 
 h1 {
@@ -46,10 +68,10 @@ h3 {
 }
 
 .menu {
-    color: #E9D9DC;
+    color: #F7260E;
     font-size: 25px;
     max-width: 200px;
-    margin-top: 185px;
+    margin-top: 140px;
     margin-bottom: 20px;
     font-weight: 600;
     list-style: none;    
@@ -64,11 +86,11 @@ h3 {
 }
 
 .menu li:hover a {
-    color: #292F36;
+    color: #FEE434;
 }
 
 .menu a.ativo {
-    color: #292F36;
+    color: #FEE434;
 }
 
 .menu ul {
@@ -89,7 +111,7 @@ h3 {
 }
 
 .menu li img.circle {
-    width: 29px;
+    width: 16px;
     margin-right: 7px; 
 }
 
