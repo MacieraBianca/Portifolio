@@ -4,14 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="shortcut icon" type="imagex/png" href="/imgs/BM.ico">
+    <link rel="shortcut icon" type="imagex/png" href="imgs/BM.ico">
     <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
-    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Bianca Macieira</title>
 </head>
 <body>
     <div class="border border-primary">
-        <h1 class="titulos">Ainda não fiz</h1>
+        <div class="titulos" id="contato">
+            <h1>Contato.</h1>
+            <h2>Entre em contato ou envie-me um e-mail diretamente para macieirabianca16@gmail.com</h2>
+        </div>
+        <form action="mailto:macieirabianca16@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="e-mail"><br>
+            <input type="email" name="nome"><br>
+            <textarea name="mensagem"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <img src="imgs/circle-small.png" class="circle" alt="ícone">
+                    <a href="index.html">Início</a>
+                </li>
+                <li>
+                    <img src="imgs/circle-small.png" class="circle" alt="ícone">
+                    <a href="SobreMim.html">Sobre mim</a>
+                </li>
+                <li>
+                    <img src="imgs/circle-small.png" class="circle" alt="ícone">
+                    <a href="projetos.html">Projetos</a>
+                </li>
+                <li>
+                    <img src="imgs/circle-small.png" class="circle" alt="ícone">
+                    <a href="contato.html" class="ativo">Contato</a>
+                </li>
+                <li>
+                    <img src="imgs/circle-small.png" class="circle" alt="ícone">
+                    <a href="habilidades.html">Habilidades</a>
+                </li>
+            </ul>
+        </nav>
+
+        <footer class="redesSociais">
+            <a href="https://www.youtube.com/@biancamacieira3">
+                <img src="imgs/youtube.png" alt="youtube" width="35px">
+            </a>
+            <a href="https://www.instagram.com/biancamacieira/">
+                <img src="imgs/instagram (1).png" alt="instagram" width="35px">
+            </a>
+            <a href="https://www.linkedin.com/in/bianca-macieira-969026176/">
+                <img src="imgs/linkedin (1).png" alt="linkedin" width="35px">
+            </a>
+            <a href="https://github.com/MacieraBianca">
+                <img src="imgs/github.png" alt="github" width="35px">
+            </a>
+        </footer>
     </div>
 </body>
 </html>
