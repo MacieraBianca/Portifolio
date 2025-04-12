@@ -36,6 +36,58 @@ body {
     max-width: 400px;
 }
 
+#contato {
+    max-width: 999px;
+}
+
+#contato h2{
+    font-size: 24px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: #1b123e;
+    color: #FEE434;
+    border: 1px solid #F7260E;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 80%;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+}
+
+.divContato{
+    display: flex;
+    flex-direction: center;
+    gap: 10px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+input[type="submit"] {
+    display: flex;
+    align-items: center;
+    background-color: #F7260E;
+    color: #FEE434;
+    border: none;
+    padding: 10px 40px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #d31f0c;
+    cursor: pointer;
+}
+
 #sobreMim {
     max-width: 999px;
     margin-bottom: -67px;
