@@ -4,14 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="shortcut icon" type="imagex/png" href="/imgs/BM.ico">
+    <link rel="shortcut icon" type="imagex/png" href="imgs/BM.ico">
     <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
-    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Bianca Macieira</title>
 </head>
 <body>
     <div class="border border-primary">
-        <h1 class="titulos">Ainda não fiz</h1>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imgs/imgteste.png" class="d-block w-100 imgTeste" alt="Imagem 1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Título 1</h5>
+                  <p>Legenda 1</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/imgteste.png" class="d-block w-100 imgTeste" alt="Imagem 2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Título 2</h5>
+                  <p>Legenda 2</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/imgteste.png" class="d-block w-100 imgTeste" alt="Imagem 3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Título 3</h5>
+                  <p>Legenda 3</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>          
+        <nav class="menu">
+            <ul>
+                <li>
+                    <img src="imgs/circle-small.png" class="circle" alt="ícone">
+                    <a href="index.html">Início</a>
+                </li>
+                <li>
+                    <img src="imgs/circle-small.png" class="circle" alt="ícone">
+                    <a href="SobreMim.html" >Sobre mim</a>
+                </li>
+                <li>
+                    <img src="imgs/circle-small.png" class="circle" alt="ícone">
+                    <a href="projetos.html" class="ativo">Projetos</a>
+                </li>
+                <li>
+                    <img src="imgs/circle-small.png" class="circle" alt="ícone">
+                    <a href="contato.html">Contato</a>
+                </li>
+                <li>
+                    <img src="imgs/circle-small.png" class="circle" alt="ícone">
+                    <a href="habilidades.html">Habilidades</a>
+                </li>
+            </ul>
+        </nav>
+
+        <footer class="redesSociais">
+            <a href="https://www.youtube.com/@biancamacieira3">
+                <img src="imgs/youtube.png" alt="youtube" width="35px">
+            </a>
+            <a href="https://www.instagram.com/biancamacieira/">
+                <img src="imgs/instagram (1).png" alt="instagram" width="35px">
+            </a>
+            <a href="https://www.linkedin.com/in/bianca-macieira-969026176/">
+                <img src="imgs/linkedin (1).png" alt="linkedin" width="35px">
+            </a>
+            <a href="https://github.com/MacieraBianca">
+                <img src="imgs/github.png" alt="github" width="35px">
+            </a>
+        </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -36,6 +36,13 @@ body {
     max-width: 500px;
 }
 
+.imgTeste {
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+    padding-right: 15px;
+}
+
 .Habilidades {
     padding-bottom: -8px;
 }
