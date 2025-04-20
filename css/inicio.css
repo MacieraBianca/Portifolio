@@ -47,6 +47,15 @@ body {
     padding-bottom: -8px;
 }
 
+.carousel-h5 {
+    color: #FEE434;
+}
+
+.carousel-p {
+    color: #FEE434;
+    max-width: 500px;
+}
+
 #menuHabilidade{
     margin-top: 126px;
 }
