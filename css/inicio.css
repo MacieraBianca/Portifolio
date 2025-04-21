@@ -47,13 +47,19 @@ body {
     padding-bottom: -8px;
 }
 
+.carousel {
+    margin-bottom: -30px;
+}
+
 .carousel-h5 {
-    color: #FEE434;
+    color: #FEE434; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
 }
 
 .carousel-p {
     color: #FEE434;
-    max-width: 500px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
 }
 
 #menuHabilidade{
