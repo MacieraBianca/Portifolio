@@ -36,19 +36,23 @@ body {
     max-width: 500px;
 }
 
-.imgTeste {
-    height: 300px;
-    width: auto;
-    object-fit: cover;
-    padding-right: 15px;
-}
-
 .Habilidades {
     padding-bottom: -8px;
 }
 
+.imgTeste {
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+}
+
 .carousel {
     margin-bottom: -38px;
+    margin-right: 15px;
+}
+
+.carousel-item {
+    border: 2px solid #F7260E;
 }
 
 .carousel-h5 {
