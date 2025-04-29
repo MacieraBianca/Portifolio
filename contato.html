@@ -14,13 +14,18 @@
     <div class="border border-primary">
         <div class="titulos" id="contato">
             <h1>Contato.</h1>
-            <h2>Entre em contato ou envie-me um e-mail diretamente para biancamacieira16@gmail.com</h2>
+            <h2>Entre em contato ou envie-me um e-mail diretamente para macieirabianca16@gmail.com</h2>
         </div>
-        <form action="mailto:biancamacieira16@gmail.com" method="POST" enctype="text/plain">
-            <input type="text" name="nome" placeholder="Digite o seu nome"><br>
-            <input type="email" name="email" placeholder="Digite o seu e-mail"><br>
+        <form action="https://formsubmit.co/macieirabianca16@gmail.com" method="POST">
+            <input type="text" name="nome" placeholder="Digite o seu nome" required><br>
+            <input type="email" name="email" placeholder="Digite o seu e-mail" required><br>
+            
+            <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" style="display:none">
+        
             <div class="divContato">
-                <textarea name="mensagem" placeholder="Digite a sua mensagem"></textarea>
+                <textarea name="mensagem" placeholder="Digite a sua mensagem" required></textarea>
                 <input type="submit" value="Enviar &rarr;">
             </div>
         </form>
@@ -64,5 +69,6 @@
             </a>
         </footer>
     </div>
+<script src="js/contato.js"></script>    
 </body>
 </html>
