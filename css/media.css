@@ -30,12 +30,54 @@
     }    
 
     #menuSobreMim {
-        margin-bottom: 65px;
+        margin-bottom: 60px;
     }
 
     #menuProjetos {
         margin-top: 80px;
         margin-bottom: 160px;
+    }
+
+    #menuContato {
+        margin-top: 160px;
+        margin-bottom: 20px;
+    }
+
+    #menuHabilidade {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .divContato {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .divContato input,
+    .divContato textarea {
+        align-self: flex-start;
+    }
+
+    .Habilidades {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px; 
+    }
+
+    .subHabilidade {
+        width: 40%;
+        margin-bottom: 0; 
+    }
+
+    .subHabilidade img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .legendaHabili {
+        font-size: 14px;
+        word-break: break-word;
     }
 
     #fotoPerfil {
@@ -45,7 +87,7 @@
     .menu {
         font-size: 20px;
         margin-top: 40px;
-        margin-bottom: 300px;
+        margin-bottom: 280px;
     }
 
     .menu .circle {
